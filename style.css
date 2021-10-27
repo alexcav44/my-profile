@@ -1,0 +1,60 @@
+body {
+background-color:#191919 ;
+font-family: 'Poppins', sans-serif;
+text-align: justify;
+color: black;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+a:hover {
+	color: #15F4D7;
+}
+
+.logo {
+
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+	width: 200px;
+	border-radius: 50%;
+
+}
+
+
+.container {
+
+width: 700px;
+margin: 40px auto; /* will put 80px of margin everywhere */
+
+}
+.element-design{
+background: #EAEAEA;
+padding: 40px;
+padding: 60px;
+margin: 50px;
+box-shadow: 0px 10px 20px black;
+border-radius: 10px;
+text-align: center;
+
+}
+
+@media (max-width: 500px) {
+	.container {
+		width:400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.btn{
+background: #15F4D7;
+border-width: 2px;
+border-color: #191919 ;
+border-radius: 10px;
+padding: 10px;
+}
